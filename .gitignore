@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# Downloaded dataset/archive (can be retrieved from UCI)
+data/*.zip
+#data/student-mat.csv
+#data/student-por.csv
