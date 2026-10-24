@@ -25,3 +25,5 @@ RMSE and MAE are in grade points (lower is better); R² measures how much variat
 | Earlier support (no G1/G2) | Linear Regression |          4.341 |       4.098 |      3.315 |     0.181 |
 
 **Interpretation:** Use the earlier-support scenario for decisions that must be made before prior-period grades are available. The later-in-year scenario uses G1/G2 and should not be represented as an early-warning model. Validate on recent local data, assess group-level errors, and keep humans responsible for student-support decisions.
+
+**Data attribution:** Cortez, P. (2008). *Student Performance* [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5TG7T. This analysis uses the mathematics file included at `data/student-mat.csv` (CC BY 4.0).

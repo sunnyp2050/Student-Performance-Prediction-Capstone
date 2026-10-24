@@ -6,7 +6,10 @@ venv/
 .env
 .ipynb_checkpoints/
 
-# Downloaded dataset/archive (can be retrieved from UCI)
+# macOS metadata
+.DS_Store
+
+# Downloaded archives and unpacked duplicates.
+# The notebook uses the included copy at data/student-mat.csv.
 data/*.zip
-#data/student-mat.csv
-#data/student-por.csv
+data/student-performance/
